@@ -1,14 +1,14 @@
 package OOP_1;
 
 
-public class Warlock extends BaseHero {
-    public Warlock( String name, int strength, int health ) {
+public class Wizard extends BaseHero {
+    public Wizard( String name, int strength, int health ) {
         super( name, strength, health );
     }
 
 
-    public Warlock() {
-        super( "Warlock", 4, 30 );
+    public Wizard() {
+        super( "Wizard", 4, 30 );
     }
 
 
